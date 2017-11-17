@@ -1,0 +1,72 @@
+* {
+	font-family: Montserrat, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#head {
+	font-size: 4.875em;
+	text-align: center;
+	position: relative;
+	top: 0.5em;
+	color:#444444
+}
+
+input:checked ~ .switch-paddle{
+	background: red;
+}
+
+#content {
+	border: 1px solid #D2D2D2;
+	background-color: #FCFCFC;
+	width: 33em;
+	height: 25em;
+	position: relative;
+	top: 7.625em;
+	display: block;
+	margin: 0 auto;
+	color:#444444;
+}
+
+#cityCountry, #temp, #humidity, #windSpeed,#icon,footer,footer p{
+	position: relative;
+}
+
+#cityCountry{
+	font-size: 1.875em;
+	text-align: center;
+	top: 0.875em;
+}
+
+#temp{
+	font-size: 4.05em;
+	left: 4.5em;
+	top: 1.8em;
+}
+
+#humidity{
+	font-size: 1.56em;
+	top: 4.7em;
+	left: 11.88em;
+}
+
+#windSpeed{
+	font-size: 1.56em;
+	left: 11.88em;
+	top: 5em;
+}
+
+#icon{
+	width: 9.5em;
+	height: 9.5em;
+	top: -2em;
+	left: 5.25em;
+}
+
+
+footer p {
+	text-align: center;
+	font-size: 0.8em;
+	top: 15em;
+	margin-bottom: 0.5em;
+}
