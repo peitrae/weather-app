@@ -2,36 +2,83 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Document</title>
+
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/foundation.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 </head>
 <body>
-	<p id="head"><strong>PPK</strong> WEATHER</p>
-	<div id="content">
-		
-		<div class="switch tiny">
-			<input class="switch-input" id="yes-no" type="checkbox" name="exampleSwitch">
-			<label class="switch-paddle" for="yes-no">
-				<span class="switch-active" aria-hidden="true">F</span>
-				<span class="switch-inactive" aria-hidden="true">C</span>
-			</label>
-		</div>
-		<div id="cityCountry"></div>
-		<div id="temp"></div>
-		<div id="humidity"></div>
-		<div id="windSpeed"></div>
-		<div id="img"></div>
+	
+	<div id="head">
+		<h1 class="pos-rltv">PPK WEATHER</h1>
 	</div>
+
+	<div id="content">
+		<div id="actual">
+			<div id="main-actual">
+				<div id="img"></div>
+
+				<div id="aside">
+					<h2  id="cityCountry"></h2>
+					<div id="date">Sun, 17 Nov 2017</div>
+					<span id="temp"></span>
+					<div class="fontBasic" id="status">Cloudy</div>
+				</div>
+			</div>
+			
+			
+			<div class="fontBasic" id="humidity"></div>
+			<div class="fontBasic" id="windSpeed"></div>	
+		</div>
+
+		<div id="forecast">
+			<div class="fmain">
+				<h3 class="fday fontBasic" id="fday-1">Tue</h3>
+				<div class="fimg" id="fimg-1">
+					<img src="https://image.flaticon.com/icons/svg/382/382565.svg" alt="">
+				</div>
+				<h3 class="ftemp fontBasic"  id="ftemp1">30 &degC</h3>
+			</div>
+			<div class="fmain">
+				<h3 class="fday fontBasic" id="fday-2">Tue</h3>
+				<div class="fimg" id="fimg-2">
+					<img src="https://image.flaticon.com/icons/svg/382/382565.svg" alt="">
+				</div>
+				<h3 class="ftemp fontBasic"  id="ftemp2">30 &degC</h3>
+			</div>
+			<div class="fmain">
+				<h3 class="fday fontBasic" id="fday-3">Tue</h3>
+				<div class="fimg" id="fimg-3">
+					<img src="https://image.flaticon.com/icons/svg/382/382565.svg" alt="">
+				</div>
+				<h3 class="ftemp fontBasic"  id="ftemp3">30 &degC</h3>
+			</div>
+			<div class="fmain">
+				<h3 class="fday fontBasic" id="fday-4">Tue</h3>
+				<div class="fimg" id="fimg-4">
+					<img src="https://image.flaticon.com/icons/svg/382/382565.svg" alt="">
+				</div>
+				<h3 class="ftemp fontBasic"  id="ftemp4">30 &degC</h3>
+			</div>
+			<div class="fmain" id="fmain5">
+				<h3 class="fday fontBasic" id="fday-5">Tue</h3>
+				<div class="fimg" id="fimg-5">
+					<img src="https://image.flaticon.com/icons/svg/382/382565.svg" alt="">
+				</div>
+				<h3 class="ftemp fontBasic"  id="ftemp5">30 &degC</h3>
+			</div>
+		</div>
+		
+		
+	</div>
+
 	<footer>
-		<p>©peitrae | Made By Peace</p>
-		<p>Icons made by <a href="http://www.flaticon.com/authors/linector" title="Linector">Linector</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+		<p>©TA-PPK</p>
 	</footer>
 	
-
 	<script src="js/script.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/foundation.min.js"></script>
 
 </body>
 </html>
